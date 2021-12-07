@@ -15,7 +15,7 @@ export default function Home() {
 
                         <Form.Group>
                             <Form.Label>Password</Form.Label>
-                            <Form.Control id='password' type="text" placeholder="password" />
+                            <Form.Control id='password' type="password" placeholder="password" />
                         </Form.Group>
                         <Col className='d-flex justify-content-center'>
                             <Button to='/Dashboard' type='submit' className='btn btn-dark mt-3'>Login</Button>

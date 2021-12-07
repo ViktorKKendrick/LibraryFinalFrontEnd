@@ -5,8 +5,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 export default function NavigationBar() {
     return (
-        <Navbar bg="light" expand="lg">
-            <Container className='text-center'>
+        <Navbar className='border-bottom' bg="light" expand="lg">
+            <Container className='text-center '>
                 
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
