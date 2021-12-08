@@ -7,7 +7,7 @@ import 'bootstrap/dist/js/bootstrap.js';
 export default class BookItem extends Component {
     constructor(props) {
         super(props);
-        this.state = { data: {} }
+        this.state = { data: {}, books: [] }
     }
 
     componentDidMount() {
@@ -23,21 +23,24 @@ export default class BookItem extends Component {
         console.log(axios)
         axios.get(this.props.url)
             .then((response) => {
-                console.log(response.data.results.books[0])
-                this.setState({ data: response.data.results.books[this.props.ind] });
+                // console.log(response.data.results.books)
+                this.setState({data: response.data.results.books[this.props.ind] });
+                this.setState({books: response.data.results.books });
                 this.setState({list: response.data.results.list_name})
+                var books = this.state.books
+                console.log(books[0])
             })
             .catch((error) => {
             })
-        // .then( () => {
-
-        // });
-    }
-
-    render() {
-        return (
-            // <div className="col-md-4 col-xs-12 mt-2 mb-2">
-            <div className={"card h-100 text-center " + 'my-auto'}>
+            // .then( () => {
+                
+                // });
+            }
+            
+            render() {
+                return (
+                    // <div className="col-md-4 col-xs-12 mt-2 mb-2">
+            <div className={"card h-100 text-center my-auto"}>
                 <div className='row'>
                     <div className='col-lg-4 text-center mb-5 mb-lg-0' ></div>
                     <div className='col-lg-4 text-center mb-5 mb-lg-0' visibility='hidden' >
