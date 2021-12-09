@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.sb {
+    width: 80vh;
+}
+.blim{
+    height:125px;
+}
+.lbg {
+    background-image: url("https://ide.codeanywhere.com/react-viktorkendrick428251/mini-browser/home/cabox/workspace/library/public/Img/LibraryBlur.jpg");
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }

@@ -1,18 +1,15 @@
 import React from 'react'
-import HardCoverFiction from './HardCover-Fiction.js';
+import API1 from './API1.js';
+import API2 from './API2.js';
+
+// import HardCoverNonFiction from './HardCover-NonFiction.js';
 
 export default function BooksList(amount) {
     return(
-        <div class='container-fluid bg-light'>
-            <div class='row'>
-            <HardCoverFiction/>
-            </div>
-            <div class='row'>
-            {/* <HardCoverFiction/> */}
-            </div>
-            <div class='row'>
-            {/* <HardCoverFiction/> */}
-            </div>
-        </div>
+        <>
+        <API1/>
+        {/* <API2/> */}
+        {/* eY5EDXQ8U2bCccZj0cqaIwHMOmDeGDR7 */}
+        </>
     )
 }
