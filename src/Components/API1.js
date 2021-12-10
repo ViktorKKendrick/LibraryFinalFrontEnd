@@ -11,7 +11,7 @@ export default function API1() {
             ind={0}
             />
             </div>
-            {/* <h2 class='bg-light'>Trade Fiction Paperback</h2>
+            <h2 class='bg-light'>Trade Fiction Paperback</h2>
             <div class='row'>
             <HardCoverFiction
                 url='https://api.nytimes.com/svc/books/v3/lists/current/trade-fiction-paperback.json?api-key=kezp8EBRqSYDAOEGW2vKoKJxNl0ny0up'
@@ -31,7 +31,7 @@ export default function API1() {
                 url='https://api.nytimes.com/svc/books/v3/lists/current/paperback-nonfiction.json?api-key=kezp8EBRqSYDAOEGW2vKoKJxNl0ny0up'
                 ind={0}
                 />
-            </div> */}
+            </div>
         </div>
         </div>
     )

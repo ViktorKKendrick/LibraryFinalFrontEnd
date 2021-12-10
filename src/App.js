@@ -12,6 +12,7 @@ import {
     Route
 } from "react-router-dom";
 function App() {
+    
     return (
         <>
             <Router>
@@ -36,6 +37,7 @@ function App() {
                     </Route>
 
                     <Route path={["/", '*']}>
+                    {/* {localStorage.removeItem('Results')} */}
                         <Home />
                         {/* <Srch/> */}
                     </Route>

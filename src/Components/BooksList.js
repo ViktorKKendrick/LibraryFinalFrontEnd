@@ -8,7 +8,7 @@ export default function BooksList(amount) {
     return(
         <>
         <API1/>
-        {/* <API2/> */}
+        <API2/>
         {/* eY5EDXQ8U2bCccZj0cqaIwHMOmDeGDR7 */}
         </>
     )

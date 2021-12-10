@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom'
 import '../index.css';
 import { useState } from "react";
 
-export default function Search() {
+export default function Search(props) {
+   
     const [search, setText] = useState({});
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -27,7 +28,43 @@ export default function Search() {
     const handleChange = e => setText(prevState => {
         return { ...prevState, [e.target.id]: e.target.value }
     })
-
+    if (props.val === 1) {
+        return (
+            <div className=' my-auto text-center container-fluid'>
+                <Row>
+                    <Col />
+                    <Col>
+                        <div className='sb text-center'>
+                            <Form onSubmit={handleSubmit}>
+                                <Row>
+                                    <Col className='col-lg-4'>
+                                        <Form.Select onChange={handleChange} id='searchCat' defaultValue={{ label: "Select Category", value: 'title' }} className='text-center'>
+                                            <option value={''}>Select</option>
+                                            <option value={'title'}>Book Title</option>
+                                            <option value={'author'}>Author</option>
+                                            <option value={'isbn'}>ISBN</option>
+                                        </Form.Select>
+                                    </Col>
+                                    <Col className='col-lg-6'>
+                                        <Form.Group onChange={handleChange} >
+                                            <Form.Control id='searchText' value={search.searchText} type="text" placeholder="Search" />
+                                            {/* <Form.Text  className="text-muted"></Form.Text> */}
+                                        </Form.Group>
+                                    </Col>
+                                    <Col className='col-lg-2 bg-primary'>
+                                        {/* <Nav.Link className=' text-white' activeClassName={'active'} as={Link} to="/Results">Submit</Nav.Link> */}
+                                        <Button as={Link} to='/Results' variant="primary" type="submit">Submit</Button>
+                                    </Col>
+                                </Row>
+                            </Form>
+                        </div>
+                    </Col>
+                    <Col />
+                </Row>
+                <Row />
+            </div>
+        )
+    }
     return (
         <div className='lbg my-auto text-center container-fluid'>
             <Row>
@@ -64,4 +101,4 @@ export default function Search() {
         </div>
     )
 }
-// 
+//
