@@ -13,6 +13,8 @@ code {
 }
 .sb {
     width: 80vh;
+    margin-right: 125px;
+    margin-top: 175px
 }
 .blim{
     height:125px;
@@ -24,3 +26,21 @@ code {
     background-repeat: no-repeat;
     background-size: cover;
     }
+    .row > * {
+        flex-shrink: 0;
+        width: 100%;
+        max-width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+        margin-top: var(--bs-gutter-y);
+    }
+.imgCol {
+    max-width:50px;
+}
+.fp{
+    margin-top:15px;
+    margin-left:160px;
+}
+.subLink {
+    margin-right:30px;
+}

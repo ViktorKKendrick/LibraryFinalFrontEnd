@@ -28,7 +28,7 @@ export default class HardCoverFiction extends Component {
                 this.setState({ data1: response.data.results.books[this.props.ind + 1] });
                 this.setState({ data2: response.data.results.books[this.props.ind + 2] });
                 this.setState({ data3: response.data.results.books[this.props.ind + 3] });
-                console.log('API Call')
+                // console.log('API Call')
                 // this.setState({books: response.data.results.books });
                 // this.setState({list: response.data.results.list_name})
                 // var books = this.state.books

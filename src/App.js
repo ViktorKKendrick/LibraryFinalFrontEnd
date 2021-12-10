@@ -1,9 +1,11 @@
 // import logo from './logo.svg';
 import './App.css';
 import Home from './Pages/Home.js'
-import Login from './Pages/Login.js'
-import Signup from './Pages/Signup.js'
-import NavigationBar from './Components/NavigationBar'
+// import Login from './Pages/Login.js'
+// import Signup from './Pages/Signup.js'
+import Results from './Pages/Results.js'
+import MyFooter from './Components/Footer.js';
+// import Srch from './Components/idk.js';
 import {
     BrowserRouter as Router,
     Switch,
@@ -13,14 +15,18 @@ function App() {
     return (
         <>
             <Router>
-                <NavigationBar />
+                
 
                 <Switch>
                     <Route exact path='/SignUp'>
-                        <Signup/>
+                        {/* <Signup/> */}
+                    </Route>
+                    <Route exact path='/Results'>
+                        <Results/>
+                        {/* <Srch/> */}
                     </Route>
                     <Route exact path='/Login'>
-                        <Login/>
+                        {/* <Login/> */}
                     </Route>
                     <Route exact path='/Dashboard'>
                         {/* <Dash/> */}
@@ -31,11 +37,12 @@ function App() {
 
                     <Route path={["/", '*']}>
                         <Home />
+                        {/* <Srch/> */}
                     </Route>
                 </Switch>
-
+                <MyFooter/>
             </Router>
-            {/* <Home/> */}
+            
         </>
     );
 }
