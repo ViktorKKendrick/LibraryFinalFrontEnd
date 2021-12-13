@@ -14,15 +14,15 @@ export default function NavigationBar() {
                         {/* <Nav.Link activeClassName={'active'} as={Link} to="/">Home</Nav.Link> */}
                         <Nav.Link activeClassName={'active'} as={Link} to="/">Home</Nav.Link>
                         <Nav.Link activeClassName={'active'} as={Link} to="/"> </Nav.Link>
-                        <Nav.Link activeClassName={'active'} as={Link} to="/Signup">Signup</Nav.Link>
+                        {/* <Nav.Link activeClassName={'active'} as={Link} to="/Signup">Signup</Nav.Link>
                         <Nav.Link activeClassName={'active'} as={Link} to="/Signup"> </Nav.Link>
                         <Nav.Link activeClassName={'active'} as={Link} to="/Login">Login</Nav.Link>
-                        <Nav.Link activeClassName={'active'} as={Link} to="/Login"> </Nav.Link>
+                        <Nav.Link activeClassName={'active'} as={Link} to="/Login"> </Nav.Link> */}
                         
                     </Nav>
-                    <Nav.Link activeClassName={'active'} as={Link} to="/Dashboard"> </Nav.Link>
+                    {/* <Nav.Link activeClassName={'active'} as={Link} to="/Dashboard"> </Nav.Link> */}
                     <Navbar.Brand> MyLiberry </Navbar.Brand>
-                    <Nav.Link activeClassName={'active'} as={Link} to="/cd"> </Nav.Link>
+                    {/* <Nav.Link activeClassName={'active'} as={Link} to="/cd"> </Nav.Link> */}
                 </Navbar.Collapse>
             </Container>
         </Navbar>

@@ -20,7 +20,7 @@ code {
     height:125px;
 }
 .lbg {
-    background-image: url("https://ide.codeanywhere.com/react-viktorkendrick428251/mini-browser/home/cabox/workspace/library/public/Img/LibraryBlur.jpg");
+    background-image: url("https://library-9b5f5.web.app/Img/LibraryBlur.jpg");
     height: 80vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -65,3 +65,6 @@ code {
     width: 100%;
     text-align: center; */
   }
+.navfoot {
+    bottom: 10px;
+}

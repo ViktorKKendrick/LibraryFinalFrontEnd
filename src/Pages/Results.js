@@ -11,7 +11,7 @@ export default function Results() {
         return (
             <>
             <NavigationBar/>
-            <Search val={1}/>
+            {/* <Search val={1}/> */}
             <h1> </h1>
             <h1 className='text-center'>No Results Found!</h1>
             </>

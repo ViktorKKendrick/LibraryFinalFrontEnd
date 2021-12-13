@@ -45,14 +45,14 @@ export default class BookItem extends Component {
         return (
             // <div className="col-md-4 col-xs-12 mt-2 mb-2">
             <>
-                <div className='col-lg-3 text-center mb-5 mb-lg-0 border-right'>
+                <div className='col-sm-3 text-center mb-5 mb-sm-0 border-right'>
                     <div className={"card h-100 text-center my-auto"}>
                         <div className='row'>
-                            <div className='col-lg-4 text-center mb-5 mb-lg-0' />
-                            <div className='col-lg-4 text-center mb-5 mb-lg-0' visibility='hidden' >
+                            <div className='col-sm-4 text-center mb-5 mb-sm-0' />
+                            <div className='col-sm-4 text-center mb-5 mb-sm-0' visibility='hidden' >
                                 <img src={this.state.data.book_image} className="card-img-top image-fluid mh-50" alt="Book" />
                             </div>
-                            <div className='col-lg-4 text-center mb-5 mb-lg-0 ' visibility='hidden' />
+                            <div className='col-sm-4 text-center mb-5 mb-sm-0 ' visibility='hidden' />
                         </div>
 
                         <div className="card-body">
@@ -63,14 +63,14 @@ export default class BookItem extends Component {
                     </div>
                 </div>
 {/* //////////////////////////////////////////////////////////////////////////////////////////////////// */}
-                <div className='col-lg-3 text-center mb-5 mb-lg-0 border-right'>
+                <div className='col-sm-3 text-center mb-5 mb-sm-0 border-right'>
                     <div className={"card h-100 text-center my-auto"}>
                         <div className='row'>
-                            <div className='col-lg-4 text-center mb-5 mb-lg-0' />
-                            <div className='col-lg-4 text-center mb-5 mb-lg-0' visibility='hidden' >
+                            <div className='col-sm-4 text-center mb-5 mb-sm-0' />
+                            <div className='col-sm-4 text-center mb-5 mb-sm-0' visibility='hidden' >
                                 <img src={this.state.data1.book_image} className="card-img-top image-fluid mh-50" alt="Book" />
                             </div>
-                            <div className='col-lg-4 text-center mb-5 mb-lg-0 ' visibility='hidden' />
+                            <div className='col-sm-4 text-center mb-5 mb-sm-0 ' visibility='hidden' />
                         </div>
 
                         <div className="card-body">
@@ -81,14 +81,14 @@ export default class BookItem extends Component {
                     </div>
                 </div>
 {/* //////////////////////////////////////////////////////////////////////////////////////////////////// */}
-                <div className='col-lg-3 text-center mb-5 mb-lg-0 border-right'>
+                <div className='col-sm-3 text-center mb-5 mb-sm-0 border-right'>
                     <div className={"card h-100 text-center my-auto"}>
                         <div className='row'>
-                            <div className='col-lg-4 text-center mb-5 mb-lg-0' />
-                            <div className='col-lg-4 text-center mb-5 mb-lg-0' visibility='hidden' >
+                            <div className='col-sm-4 text-center mb-5 mb-sm-0' />
+                            <div className='col-sm-4 text-center mb-5 mb-sm-0' visibility='hidden' >
                                 <img src={this.state.data2.book_image} className="card-img-top image-fluid mh-50" alt="Book" />
                             </div>
-                            <div className='col-lg-4 text-center mb-5 mb-lg-0 ' visibility='hidden' />
+                            <div className='col-sm-4 text-center mb-5 mb-sm-0 ' visibility='hidden' />
                         </div>
 
                         <div className="card-body">
@@ -99,14 +99,14 @@ export default class BookItem extends Component {
                     </div>
                 </div>
 {/* //////////////////////////////////////////////////////////////////////////////////////////////////// */}
-                <div className='col-lg-3 text-center mb-5 mb-lg-0 border-right'>
+                <div className='col-sm-3 text-center mb-5 mb-sm-0 border-right'>
                     <div className={"card h-100 text-center my-auto"}>
                         <div className='row'>
-                            <div className='col-lg-4 text-center mb-5 mb-lg-0' />
-                            <div className='col-lg-4 text-center mb-5 mb-lg-0' visibility='hidden' >
+                            <div className='col-sm-4 text-center mb-5 mb-sm-0' />
+                            <div className='col-sm-4 text-center mb-5 mb-sm-0' visibility='hidden' >
                                 <img src={this.state.data3.book_image} className="card-img-top image-fluid mh-50" alt="Book" />
                             </div>
-                            <div className='col-lg-4 text-center mb-5 mb-lg-0 ' visibility='hidden' />
+                            <div className='col-sm-4 text-center mb-5 mb-sm-0 ' visibility='hidden' />
                         </div>
 
                         <div className="card-body">

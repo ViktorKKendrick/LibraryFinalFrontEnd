@@ -19,22 +19,22 @@ function App() {
                 
 
                 <Switch>
-                    <Route exact path='/SignUp'>
+                    {/* <Route exact path='/SignUp'> */}
                         {/* <Signup/> */}
-                    </Route>
+                    {/* </Route> */}
                     <Route exact path='/Results'>
                         <Results/>
                         {/* <Srch/> */}
                     </Route>
-                    <Route exact path='/Login'>
+                    {/* <Route exact path='/Login'> */}
                         {/* <Login/> */}
-                    </Route>
-                    <Route exact path='/Dashboard'>
+                    {/* </Route> */}
+                    {/* <Route exact path='/Dashboard'> */}
                         {/* <Dash/> */}
-                    </Route>
-                    <Route exact path='/cd'>
+                    {/* </Route> */}
+                    {/* <Route exact path='/cd'> */}
                         {/* <EasterEgg/> */}
-                    </Route>
+                    {/* </Route> */}
 
                     <Route path={["/", '*']}>
                     {/* {localStorage.removeItem('Results')} */}
