@@ -61,7 +61,7 @@ export default class HardCoverFiction extends Component {
         return (
             // <div className="col-md-4 col-xs-12 mt-2 mb-2">
             <>
-                <div class='container-fluid bg-light'>
+                <div className='container-fluid bg-light'>
                     <div className={'row bg-light'}>
                         <div className='col-sm-3 text-center mb-5 mb-sm-0 border-right'>
                             <div className={"card h-100 text-center my-auto"}>

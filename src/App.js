@@ -6,7 +6,7 @@ import Home from './Pages/Home.js';
 import Results from './Pages/Results.js';
 import MyFooter from './Components/Footer.js';
 // import Srch from './Components/idk.js';
-import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.css';
 
 import {
     BrowserRouter as Router,
