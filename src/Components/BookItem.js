@@ -1,8 +1,7 @@
 import React from "react";
 import axios from "axios";
 import { Component } from 'react'
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/js/bootstrap.js';
+
 
 export default class BookItem extends Component {
     constructor(props) {

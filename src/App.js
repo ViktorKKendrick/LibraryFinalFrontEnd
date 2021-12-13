@@ -1,11 +1,13 @@
 // import logo from './logo.svg';
 import './App.css';
-import Home from './Pages/Home.js'
+import Home from './Pages/Home.js';
 // import Login from './Pages/Login.js'
 // import Signup from './Pages/Signup.js'
-import Results from './Pages/Results.js'
+import Results from './Pages/Results.js';
 import MyFooter from './Components/Footer.js';
 // import Srch from './Components/idk.js';
+import 'bootstrap/dist/css/bootstrap.css';
+
 import {
     BrowserRouter as Router,
     Switch,
@@ -17,7 +19,6 @@ function App() {
         <>
             <Router>
                 
-
                 <Switch>
                     {/* <Route exact path='/SignUp'> */}
                         {/* <Signup/> */}

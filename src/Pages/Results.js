@@ -1,6 +1,5 @@
 import React from 'react'
 // import {Row} from 'react-bootstrap';
-import 'bootstrap/dist/js/bootstrap.js';
 import Search from '../Components/Search.js';
 import NavigationBar from '../Components/NavigationBar.js'
 export default function Results() {

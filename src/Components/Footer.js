@@ -1,6 +1,6 @@
 import React from 'react'
 import {Row, Col} from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.css';
+
 export default function MyFooter() {
     return (
         <div className='foots container-fluid'>

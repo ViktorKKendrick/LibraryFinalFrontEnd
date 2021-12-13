@@ -14,7 +14,7 @@ code {
 .sb {
     width: 80vh;
     margin-right: 125px;
-    margin-top: 175px
+    margin-top: 175px;
 }
 .blim{
     height:125px;
@@ -54,7 +54,7 @@ code {
     padding-top:30px;
 }
 .rowMH {
-    max-height:900px
+    max-height:900px;
 }
 .foots {
      position: sticky;

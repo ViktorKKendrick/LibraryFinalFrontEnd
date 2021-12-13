@@ -1,10 +1,9 @@
 import React from "react";
 import axios from "axios";
 import { Component } from 'react'
-import { NavDropdown, Nav, Navbar, Col, Row } from 'react-bootstrap'
+// import { NavDropdown, Nav, Navbar, Col, Row } from 'react-bootstrap'
 
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/js/bootstrap.js';
+
 
 export default class HardCoverFiction extends Component {
     constructor(props) {
