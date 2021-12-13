@@ -1,5 +1,4 @@
 // import logo from './logo.svg';
-import './App.css';
 import Home from './Pages/Home.js';
 // import Login from './Pages/Login.js'
 // import Signup from './Pages/Signup.js'
