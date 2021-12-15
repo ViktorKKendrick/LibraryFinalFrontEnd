@@ -13,38 +13,22 @@ import {
     Route
 } from "react-router-dom";
 function App() {
-    
+
     return (
         <>
             <Router>
-                
-                <Switch>
-                    {/* <Route exact path='/SignUp'> */}
-                        {/* <Signup/> */}
-                    {/* </Route> */}
-                    <Route exact path='/Results'>
-                        <Results/>
-                        {/* <Srch/> */}
-                    </Route>
-                    {/* <Route exact path='/Login'> */}
-                        {/* <Login/> */}
-                    {/* </Route> */}
-                    {/* <Route exact path='/Dashboard'> */}
-                        {/* <Dash/> */}
-                    {/* </Route> */}
-                    {/* <Route exact path='/cd'> */}
-                        {/* <EasterEgg/> */}
-                    {/* </Route> */}
 
+                <Switch>
+                    <Route exact path='/Results'>
+                        <Results />
+                    </Route>
                     <Route path={["/", '*']}>
-                    {/* {localStorage.removeItem('Results')} */}
                         <Home />
-                        {/* <Srch/> */}
                     </Route>
                 </Switch>
-                <MyFooter/>
+                <MyFooter />
             </Router>
-            
+
         </>
     );
 }

@@ -5,7 +5,6 @@ export default function MyFooter() {
     return (
         <div className='foots container-fluid'>
             <footer className="footer">
-                {/* <Container className=''> */}
                 <Row className='container-fluid'>
                     <Col className='imgCol col-sm-1 md-auto d-flex align-items-center justify-content-center'>
                         <a className='nav-link' href='https://www.instagram.com/wasabi.64/'>
@@ -35,12 +34,9 @@ export default function MyFooter() {
                         </a>
                     </Col>
                     <Col className='col-lg-7 text-center mb-8 mb-lg-1 d-flex align-items-center justify-content-center'>
-                        <p className=' fp text-center'>
                         <p className='fp text-center'>©2021 Viktor K. Kendrick. All Rights Reserved.</p>
-                        </p>
                     </Col>
                 </Row>
-                {/* </Container> */}
             </footer>
         </div>
     )
